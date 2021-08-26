@@ -17,7 +17,7 @@ defmodule Blog.MixProject do
         "coveralls.detail": :test,
         "coveralls.post": :test,
         "coveralls.html": :test,
-        "coveralls.html": :json
+        "coveralls.json": :test
       ]
     ]
   end
