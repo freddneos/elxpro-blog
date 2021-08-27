@@ -17,7 +17,9 @@ defmodule BlogWeb.UserSocket do
   # performing token verification on connect.
   @impl true
   def connect(_params, socket, _connect_info) do
+    # coveralls-ignore-start
     {:ok, socket}
+    # coveralls-ignore-stop
   end
 
   # Socket id's are topics that allow you to identify all sockets for a given user:
